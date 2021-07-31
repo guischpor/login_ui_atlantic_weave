@@ -9,12 +9,14 @@ const Color COLOR_TEXT_BUTTON = Color(0xffA2A2A2);
 const Color COLOR_TEXT_NEW_ACCOUNT = Color(0xffF7F7F7);
 
 const Gradient BACKGROUND_GRADIENTE_SCREEN = LinearGradient(
-    begin: Alignment.bottomCenter,
-    end: Alignment.center,
-    colors: [
-      Color.fromRGBO(84, 84, 84, 0),
-      Color.fromRGBO(0, 0, 0, 6),
-    ]);
+  begin: Alignment.topCenter,
+  end: Alignment.bottomCenter,
+  colors: [
+    Color.fromRGBO(84, 84, 84, 0.4),
+    Color.fromRGBO(0, 0, 0, 1),
+  ],
+  tileMode: TileMode.mirror,
+);
 
 const TextStyle titleLogin = TextStyle(
   fontSize: 16.0,
