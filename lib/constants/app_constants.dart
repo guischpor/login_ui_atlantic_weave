@@ -19,7 +19,7 @@ const Gradient BACKGROUND_GRADIENTE_SCREEN = LinearGradient(
 );
 
 const TextStyle titleLogin = TextStyle(
-  fontSize: 16.0,
+  fontSize: 19,
   color: Colors.white,
-  fontWeight: FontWeight.w400,
+  fontWeight: FontWeight.w500,
 );
